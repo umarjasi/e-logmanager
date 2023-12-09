@@ -21,6 +21,7 @@ class HRTNIR:
     txtbox_espa_name = "txtPassword"
     btn_sv_id = "btnESave"
 
+    txtbox_revrem_id = "TIRData_ReviewRemarks"
     btn_subrev_id = "btnReview"
     btn_aclo_id = "profile-tab-1"
     btn_back_id = "btnBack"
@@ -102,6 +103,9 @@ class HRTNIR:
         actions = ActionChains(self.driver)
         actions.double_click(grid_entries)
         actions.perform()
+
+    def reviewremarks(self,revrem):
+        self.driver.find_element(By.ID, self.txtbox_revrem_id).send_keys(revrem)
 
     def SubReview(self):
         self.driver.find_element(By.ID, self.btn_subrev_id).click()
