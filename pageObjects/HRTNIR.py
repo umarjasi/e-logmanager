@@ -12,6 +12,7 @@ class HRTNIR:
     dro_promt_id = "TIRData_Proposedmonth"
     txtbox_noe_id = "TIRData_EmployeeName"
     txtbox_emc_id = "TIRData_EmployeeCode"
+    txtbox_des_id = "TIRData_Designation"
     txtbox_not_id = "TIRData_TraineeName"
     txtbox_dot_id = "TIRData_TraineeDesignation"
     txtbox_re_id = "TIRData_Remarks"
@@ -67,8 +68,8 @@ class HRTNIR:
     def EmpCo(self, EMC):
         self.driver.find_element(By.ID, self.txtbox_emc_id).send_keys(EMC)
 
-    def Des(self, EMC):
-        self.driver.find_element(By.ID, self.txtbox_emc_id).send_keys(EMC)
+    def Des(self, DES):
+        self.driver.find_element(By.ID, self.txtbox_des_id).send_keys(DES)
 
     def NoT(self, NOT):
         self.driver.find_element(By.ID, self.txtbox_not_id).send_keys(NOT)

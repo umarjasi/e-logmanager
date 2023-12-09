@@ -106,7 +106,7 @@ class TestHRTNIR:
         time.sleep(1.3)
         self.hrpage.scrollprev()
         time.sleep(1.3)
-        self.hrpage.dynamicfltr("Partially Cleaned")
+        self.hrpage.dynamicfltr("Sathya")
         time.sleep(1.3)
         self.hrpage.sidebar()
         time.sleep(1.3)
