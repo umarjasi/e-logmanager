@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad78fa42-68a9-46ac-a3da-22fb45363807" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pageObjects/HRSRR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_hrsrr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/HRTNIR.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/HRTNIR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/test_hrtnir.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_hrtnir.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
